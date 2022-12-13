@@ -1,5 +1,6 @@
 :root{
     --text-color: 238, 229, 233;
+    --link-color: 40, 102, 110;
 }
 
 body {
@@ -20,4 +21,8 @@ body {
 }
 h2 {
     font-size: 2em;
+}
+
+a{
+    color: rgb(var(--link-color));
 }
